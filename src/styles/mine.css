@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Itim&family=Permanent+Marker&display=swap');
+.nav-bar{
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    justify-content: start;
+}
+
+.nav-right{
+    width: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons{
+    font-size: 24px;
+    color: chocolate;
+}
+
+#logo{
+    width: 30px;
+    margin: 0 14px;
+}
+
+h1{
+    color: chocolate;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    border-radius: 13px;
+    width: 50%;
+    background-color: wheat;
+}
+
+#profile-pic{
+    width: 50px;
+    border-radius: 50%;
+    margin: 2px 14px;
+    background-color: chocolate;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    
+
+}
+
+.top-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+#chat-name{
+    color:rgb(177, 211, 83)
+}
+
+#last-seen{
+    padding: 4px;
+}
+
+.bottom-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#chat-content{
+    font-family: 'Itim', cursive;
+    font-size: 12px;
+}
+
+#chat-number{
+    background-color: rgb(4, 179, 185);
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: white;
+}
+
